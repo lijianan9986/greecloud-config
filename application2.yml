@@ -1,6 +1,14 @@
-safasfdasf
-asfd
-sadf
-asfd
-asfd
-asfd
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev   #开发环境
+  application:
+    name: greecloud-config-bdqn-dev2
+---
+spring:
+  profiles: test  #测试环境
+  application:  
+    name: greecloud-config-bdqn-test2
