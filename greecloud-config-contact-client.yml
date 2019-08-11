@@ -47,7 +47,7 @@ mybatis:
   mapper-locations: classpath:mybatis/mapper/**/*.xml # mapper映射文件
 
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: provider-contact
   datasource:
