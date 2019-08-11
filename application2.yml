@@ -1,9 +1,9 @@
 spring:
   profiles: dev   #开发环境
   application:
-    name: greecloud-config-bdqn-dev2
+    name: greecloud-config-bdqn-dev222
 ---
 spring:
   profiles: test  #测试环境
   application:  
-    name: greecloud-config-bdqn-test2
+    name: greecloud-config-bdqn-test222
